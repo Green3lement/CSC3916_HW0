@@ -1,0 +1,56 @@
+status:200 (connection status)
+statusText:OK
+headers:{
+
+    expires:Sun, 02 Feb 2020 21:01:01 GMT  (date and time after which the response is considered stale)
+    date:Sun, 02 Feb 2020 21:01:01 GMT		(data and time the response was made)
+    cache-control:private, max-age=0, must-revalidate, no-transform (Directives for caching mechanisms in both request and responses, this is telling the client not to cache the data)
+    etag:(unique string identifying the version of the resourse.)
+    \
+    iPPser6Mov75mJUb_EktR4oB1SI/8afy_-1nrD09JJMUyB7wUeAKKXo
+    \
+    vary:Origin, X-Origin (determines how to match request headers to decide whether a cached response can be used rather than requesting a fresh one from the server)
+    content-type:application/json; charset=UTF-8 (media type of the resourse)
+    x-content-type-options:nosniff (disables MIME sniffing and forces browser to use the given in content-type)
+    x-frame-options:SAMEORIGIN (indicates whether a browser should be allowed to render a page in a <frame>,<iframe>,<embed> or <object>)
+    x-xss-protection:1; mode=block(enables cross-site filtering)
+    content-length:39976(size of the resource)
+    server:GSE(Contains info about the software used by the origin server to handle the request.)
+    alt-svc:quic=(list of alternate ways to access the service)
+    \
+    :443
+    \
+    ; ma=2592000; v=
+    \
+    4643
+    \
+    h3-Q050=
+    \
+    :443
+    \
+    ; ma=2592000h3-Q049=
+    \
+    :443
+    \
+    ; ma=2592000h3-Q048=
+    \
+    :443
+    \
+    ; ma=2592000h3-Q046=
+    \
+    :443
+    \
+    ; ma=2592000h3-Q043=
+    \
+    :443
+    \
+    ; ma=2592000
+    connection:close(controls whether the network connection stays open after the current transaction finishes)
+
+},
+requestHeader:{
+
+    Accept:application/json, text/plain, */*(what the client will accept in order */* is anything)
+    User-Agent:axios/0.18.0(client software)
+
+}
